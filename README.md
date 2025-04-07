@@ -78,28 +78,29 @@ DELETE	/api/personnel/:id	Delete personnel record
 
 📁 Project Structure
 school-transport-management/
-➜ backend/
-   ➜ controllers/
-   ➜ models/
-   ➜ routes/
-   ➜ config/
-   ➜ server.js
-   ➜ .env
-
-➜ frontend/
-   ➜ public/
-   ➜ src/
-     ➜ components/
-     ➜ pages/
-     ➜ services/
-     ➜ App.jsx
-     ➜ main.jsx
-     ➜ index.css
-   ➜ vite.config.js
-
-➜ README.md  
-➜ package.json  
-➜ .gitignore  
+├── backend/
+│   ├── controllers/
+│   ├── models/
+│   ├── routes/
+│   ├── config/
+│   ├── server.js
+│   └── .env
+│
+├── frontend/
+│   ├── public/
+│   ├── src/
+│   │   ├── components/
+│   │   ├── pages/
+│   │   ├── services/
+│   │   ├── App.jsx
+│   │   ├── main.jsx
+│   │   └── index.css
+│   └── vite.config.js
+│
+├── README.md
+├── package.json
+└── .gitignore
+  
 
 
 
