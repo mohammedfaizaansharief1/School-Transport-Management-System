@@ -1,8 +1,10 @@
 🚌 School Transport Management System
 
+
 A full-stack web application to manage School Transport Management System including bus routes, personnel, student registrations, and real-time communication features using Socket.io.
 
-🚀 Features
+
+Features
 
 - ✅ Bus Management (Add/Edit/Delete Buses)
 - ✅ Route Management (Map bus routes with stops)
@@ -33,28 +35,35 @@ Backend
 git clone https://github.com/your-username/school-transport-system.git
 cd school-transport-system
 
+
 2. Setup Backend
 cd backend
 npm install
 
+
 Create a .env file in /backend directory:
 PORT=5000
 MONGO_URI=mongodb://localhost:27017/school-transport
+
 
 Start the Backend Server
 npm run dev
 or
 npm start
 
+
 3. Setup Frontend
 cd ../frontend
 npm install
 
+
 Create a .env file in /frontend directory:
 VITE_API_BASE_URL=http://localhost:5000/api
 
+
 Start the Frontend Dev Server
 npm run dev
+
 
 
 🔌 API Endpoints (Sample)
@@ -63,6 +72,8 @@ GET	    /api/routes	        Get all bus routes
 POST	  /api/registrations	Register a student
 PUT	    /api/buses/:id	    Update a bus
 DELETE	/api/personnel/:id	Delete personnel record
+
+
 
 
 📁 Project Structure
@@ -85,8 +96,10 @@ school-transport-system/
 │
 └── README.md
 
+
 🧪 Optional: MongoDB Setup with Docker (if you prefer)
 docker run -d -p 27017:27017 --name school-db mongo
+
 
 
 🤝 Contributions
